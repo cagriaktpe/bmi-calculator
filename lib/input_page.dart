@@ -37,35 +37,31 @@ class _InputPageState extends State<InputPage> {
             children: <Widget>[
               // Male card
               Expanded(
-                  child: GestureDetector(
-                child: ReusableCard(
-                  colour: selectedGender == Gender.male ? activeCardColour : inactiveCardColour,
-                  cardChild: IconContent(
-                    icon: FontAwesomeIcons.mars,
-                    label: 'MALE',
-                  ),
-                ),
-                onTap: () {
-                  setState(() {
-                    selectedGender = Gender.male;
-                  });
-                },
-              )),
+                  child: ReusableCard(
+                    onPress: () {
+                      setState(() {
+                        selectedGender = Gender.male;
+                      });
+                    },
+                    colour: selectedGender == Gender.male ? activeCardColour : inactiveCardColour,
+                    cardChild: IconContent(
+                      icon: FontAwesomeIcons.mars,
+                      label: 'MALE',
+                    ),
+                  )),
               // Female card
               Expanded(
-                child: GestureDetector(
-                  child: ReusableCard(
-                    colour: selectedGender == Gender.female ? activeCardColour : inactiveCardColour,
-                    cardChild: IconContent(
-                      icon: FontAwesomeIcons.venus,
-                      label: 'FEMALE',
-                    ),
-                  ),
-                  onTap: () {
+                child: ReusableCard(
+                  onPress: () {
                     setState(() {
                       selectedGender = Gender.female;
                     });
                   },
+                  colour: selectedGender == Gender.female ? activeCardColour : inactiveCardColour,
+                  cardChild: IconContent(
+                    icon: FontAwesomeIcons.venus,
+                    label: 'FEMALE',
+                  ),
                 ),
               ),
             ],
