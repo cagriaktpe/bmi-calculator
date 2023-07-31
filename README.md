@@ -1,8 +1,8 @@
-<h1 align="center">BMI Calculator App</h1>
-
-<p align="center">
-  <img src="./screenshots/input_page.jpg" alt="Home Screen" width="300">
-  <img src="./screenshots/results_page.jpg" alt="Result Screen" width="300">
+<h1>BMI Calculator App</h1>
+<br>
+<p>
+  <img src="./screenshots/input_page.jpeg" alt="Home Screen" width="300">
+  <img src="./screenshots/results_page.jpeg" alt="Result Screen" width="300">
 </p>
 
 ## About the Project
