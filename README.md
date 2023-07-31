@@ -1,16 +1,49 @@
-# bmi_calculator
+<h1 align="center">BMI Calculator App</h1>
 
-A new Flutter project.
+<p align="center">
+  <img src="./screenshots/input_page.jpg" alt="Home Screen" width="300">
+  <img src="./screenshots/results_page.jpg" alt="Result Screen" width="300">
+</p>
 
-## Getting Started
+## About the Project
 
-This project is a starting point for a Flutter application.
+This is a simple BMI (Body Mass Index) calculator app built with Flutter. It calculates the user's BMI based on their height and weight and displays the result.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies and Packages Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+```
+git clone https://github.com/denaktepe/bmi_calculator/
+cd BMI_Calculator
+flutter pub get
+flutter run
+```
+
+## How to Use
+
+1. Open the app and enter your height and weight on the home screen.
+2. Tap the "Calculate" button.
+3. The result screen will display your calculated BMI value along with a comment.
+
+## Contributions
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork this repository to your GitHub account.
+2. Create a new branch: `git checkout -b my-feature`
+3. Make your changes and commit them: `git commit -m "A descriptive commit message"`
+4. Push your changes: `git push origin my-feature`
+5. Open a pull request and share your changes.
+
+## Contact
+
+For any questions, suggestions, or feedback, please email me at sametcagriaktepe@gmail.com.
+
+
+
+
+
