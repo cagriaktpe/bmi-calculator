@@ -16,10 +16,29 @@ This is a simple BMI (Body Mass Index) calculator app built with Flutter. It cal
 
 ## Installation
 
+1. Clone this repository or download it as a zip file:
+
 ```
-git clone https://github.com/denaktepe/bmi-calculator/
-cd BMI_Calculator
+git clone https://github.com/denaktepe/bmi-calculator.git
+```
+
+
+2. Navigate to the project directory:
+
+```
+cd Destini_App
+```
+
+3. Install the required packages:
+
+```
 flutter pub get
+```
+
+
+4. Run the app:
+
+```
 flutter run
 ```
 
