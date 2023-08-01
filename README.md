@@ -1,4 +1,4 @@
-<h1>BMI Calculator App</h1>
+# BMI Calculator
 <br>
 <p>
   <img src="./screenshots/input_page.jpeg" alt="Home Screen" width="300">
