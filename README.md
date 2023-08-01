@@ -26,7 +26,7 @@ git clone https://github.com/denaktepe/bmi-calculator.git
 2. Navigate to the project directory:
 
 ```
-cd bmi_calculator
+cd bmi-calculator
 ```
 
 3. Install the required packages:
