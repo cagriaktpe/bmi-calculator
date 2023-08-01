@@ -1,5 +1,5 @@
 # BMI Calculator
-<br>
+
 <p>
   <img src="./screenshots/input_page.jpeg" alt="Home Screen" width="300">
   <img src="./screenshots/results_page.jpeg" alt="Result Screen" width="300">
