@@ -9,10 +9,10 @@
 
 This is a simple BMI (Body Mass Index) calculator app built with Flutter. It calculates the user's BMI based on their height and weight and displays the result.
 
-## Technologies and Packages Used
+## Technologies Used
 
-- Flutter
-- Dart
+`Flutter`
+`Dart`
 
 ## Installation
 
